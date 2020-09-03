@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+
+/*general styles start*/
+* {
+    box-sizing: border-box;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+body {
+	font-size: 62.5%;
+}
+/*general styles end*/
+
+/*h1 amd nav styles start*/
+
+h1 {
+	font-size: 4rem;
+	margin-left: 2%;
+	margin-top: 5%;
+}
+
+.nav1 {
+	display: flex;
+	margin-left: 5%;
+	margin-top:2%;
+	margin-bottom:3%;
+}
+
+header nav a {
+	display: inline-block;
+	border:solid black 2px;
+	font-size:1.7rem;
+	padding: 0.5% 1%;
+} 
+.background1 {
+	background: magenta;
+	padding:2%;
+	border:solid black 1px;
+}
+/*h1 and nav styles end*/
+
+/*header content styles start*/
+
+.headercontent {
+	display: flex;
+}
+
+.headerimg {
+	width: 75%;
+}
+
+.headerimg img{
+width:100%;
+height: 45vh;
+margin-left:2%;
+margin-top:2%;
+
+}
+
+.headertext {
+	width: 45%;
+	display:flex;
+	flex-direction:column;
+	font-size:2rem;
+	justify-content:flex-end;
+	align-items:center;
+	line-height: 1.5;
+}
+
+.minicontainer {
+	display:flex;
+	justify-content:center;
+}
+
+.headertext a {
+	margin-bottom:5%;
+	margin-right:75%;
+	font-size:1rem;
+	padding:2% 4%;
+	border:solid black 2px;
+}
+
+.headertext h2{
+	margin-right:43%;
+	margin-bottom:5%;
+	font-size: 3rem;
+}
+/*header content styles stop*/
+
+/*projects section styles start*/
+
+.bc {
+	display:flex;
+	justify-content:space-around;
+	text-align:center;
+	font-size: 1.8rem;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+/*project section styles stop*/
+
+/*footer styles start*/
+
+footer {
+	padding: 5%;
+	text-align:center;
+	background: magenta;
+}
+
+footer h2 {
+	font-size:3rem;
+}
+
+.nav2 {
+	margin-top: 4%;
+}
+
+.nav2 a{
+	background:white;
+	padding: 1% 3%;
+	font-size:1.5rem;
+}
+
