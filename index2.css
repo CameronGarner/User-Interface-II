@@ -55,10 +55,12 @@ table {
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
+	color:#4f4f4f;
 }
 
 body {
 	font-size: 62.5%;
+	background-color:pink;
 }
 /*general styles end*/
 
@@ -84,7 +86,7 @@ header nav a {
 	padding: 0.5% 1%;
 } 
 .background1 {
-	background: magenta;
+	background: peachpuff;
 	padding:2%;
 	border:solid black 1px;
 }
@@ -155,7 +157,7 @@ margin-top:2%;
 footer {
 	padding: 5%;
 	text-align:center;
-	background: magenta;
+	background: peachpuff;
 }
 
 footer h2 {
@@ -171,4 +173,119 @@ footer h2 {
 	padding: 1% 3%;
 	font-size:1.5rem;
 }
+/*tablet size styles*/
+
+@media (max-width:800px){
+	h1 {
+		text-align:center;
+		margin-bottom:5%;
+	}
+	header nav a {
+		padding:0.5% 2%;
+		width: 30%;
+		text-align:center;
+	}
+	.headercontent {
+		flex-direction:column;
+		align-items:center;
+		text-align:center;
+	}
+	.headerimg {
+		width:80%;
+	}
+	.headerimg img {
+		height:25vh;
+		margin-bottom:5%;
+	}
+	.headertext {
+		width:80%;
+		margin-bottom:5%;
+	}
+	.headertext h2 {
+		margin:0 auto;
+		margin-bottom:5%;
+	}
+	.headertext a{
+		margin:0 auto;
+		width:40%;
+		margin-bottom:5%;
+		font-size:2rem;
+	}
+	.bc {
+		flex-wrap:wrap;
+		width:76%;
+		margin-left:12.5%;
+	}
+	div.bc h3 {
+		margin-bottom:20%;
+	}
+	div.bc img {
+		margin-bottom:10%;
+	}
+	footer h2 {
+		margin-bottom:8%;
+	}
+	footer nav {
+		margin-bottom:10%;
+	}
+}
+
+/*phone size styles*/
+
+@media (max-width:500px){
+h1 {
+	text-align:center;
+}
+.nav1 {
+	flex-direction:column;
+	align-items:center;
+}
+header nav a {
+	padding:0.5% 2%;
+	width: 30%;
+	text-align:center;
+}
+.headercontent {
+	flex-direction:column;
+	align-items:center;
+	text-align:center;
+}
+.headerimg {
+	width:80%;
+}
+.headerimg img {
+	height:25vh;
+	margin-bottom:10%;
+}
+.headertext {
+	width:80%;
+	margin-bottom:10%;
+}
+.headertext h2 {
+	margin:0 auto;
+	margin-bottom:10%;
+}
+.headertext a{
+	margin:0 auto;
+	width:40%;
+	margin-bottom:10%;
+}
+.bc {
+	flex-wrap:wrap;
+}
+div.bc h3 {
+	margin-bottom:20%;
+}
+div.bc img {
+	margin-bottom:10%;
+}
+footer h2 {
+	margin-bottom:8%;
+}
+footer nav {
+	margin-bottom:10%;
+}
+}
+
+
 
